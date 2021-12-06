@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 25px 100px;
+
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    
+    }
+    nav a{
+        border-bottom: 2px solid rgb(228, 224, 224);
+        padding-bottom: 15px;
+    }
+    a:hover{
+        color: green;
+        
+    }
+    .links a{
+        padding-left:10px;
+        text-decoration: none;
+    }
+
+    .linkss a{
+        padding-left:10px;
+        text-decoration: none;
+    }
+    .main{
+        display: flex;
+    justify-content: space-between;
+    }
+    .main a{
+        border-bottom: 2px solid #ddd;
+        
+    }
+    .main .left{
+        display: flex;
+    }
+    .main .left a{
+        padding: 15px;
+        text-decoration: none;
+        border-bottom-color: green;
+        color: green;
+    }
+    .main .right{
+        margin: 15px;
+        padding-left: 15px;
+    }
+    .main .right a{
+        text-decoration: none;
+    }
+    .content{
+        margin-top: 15px;
+        display: flex;
+    }
+    .content .mini{
+        display: flex;
+        text-align: center;
+    }
+    .content .mini img{
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+        
+    }
+    
+    .second {
+        display: flex;
+        margin-top: 50px;
+        background-color: rgb(244, 245, 247);
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .content_r {
+        width: 25%;
+        padding-left: 25px;
+        border-bottom: none;
+    }
+    .content_r .updated{
+        margin-top: 20px;
+    }
+        input {
+            padding: 10px 20px;
+            margin: 15px 0 25px ;
+            border-color: black;
+        }
+        input:focus {
+            background-color: rgb(228, 224, 224);
+        }
+        .buttonn a {
+            margin-bottom: 35px;
+            color:green;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 10px 25px;
+            color: #ddd;
+            text-decoration: none;
+        }
+        .icons a {
+            margin-top: 30px;
+            border-top: 1px solid #ddd;
+            padding: 20px 0;
+            text-decoration: none;
+            margin: 30px;
+
+        }
+           .icons a:hover {
+            color:#ddd;
+            margin-right: 25px;
+                color: rgb(51, 49, 49);
+                margin-bottom: 30px;
+    
+        }
+        .buttonn a:hover{
+            color:green;
+        }
+       .demo{
+           padding: 20px;
+           
+       } 
+        
+        .demo a{
+            text-decoration: none;
+            color: green;
+        }
+     .demo a:hover{
+        color:green
+    }
+        .updated a{
+            margin-bottom: 25px;
+                margin-right: 15px;
+                color: #ddd;
+                text-decoration: none;
+        }
+        .updated a:hover{
+            color: rgb(51, 49, 49);
+        }
+        
